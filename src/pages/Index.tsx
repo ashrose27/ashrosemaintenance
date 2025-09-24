@@ -82,15 +82,9 @@ const [formData, setFormData] = useState({
     },
     { 
       icon: Home, 
-      title: "Glazing", 
+      title: "Window Replacement", 
       description: "Window glass repair and replacement",
-      details: "Expert glazing services for windows, doors, and glass panels with proper sealing and energy-efficient solutions."
-    },
-    { 
-      icon: Droplets, 
-      title: "Plumbing", 
-      description: "Comprehensive plumbing repairs and installations",
-      details: "Complete plumbing services including leak repairs, pipe replacements, fixture installations, and emergency callouts."
+      details: "Expert window replacement services for windows, doors, and glass panels with proper sealing and energy-efficient solutions."
     },
     { 
       icon: Square, 
@@ -109,12 +103,6 @@ const [formData, setFormData] = useState({
       title: "Plastering", 
       description: "Wall and ceiling plastering services",
       details: "Professional plastering for new construction and repairs, including skimming, patching, and texture finishes."
-    },
-    { 
-      icon: Lightbulb, 
-      title: "Electrical", 
-      description: "Licensed electrical work and repairs",
-      details: "Certified electrical services including installations, repairs, safety inspections, and compliance upgrades."
     }
   ];
 
