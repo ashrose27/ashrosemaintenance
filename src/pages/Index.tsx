@@ -223,10 +223,10 @@ const [formData, setFormData] = useState({
 
     try {
       await emailjs.send(
-        'service_msljzoo',
+        'service_3g1wipy',
         'template_hnd3m86',
         templateParams,
-        'Gj26hMEGsIghlhjEe0AfZ'
+        '1KALj3R8v7VU0OIJU'
       );
       alert('Thank you for your inquiry! We\'ll contact you within 24 hours.');
       setFormData({ name: '', email: '', phone: '', message: '', serviceTypes: [] });
@@ -247,7 +247,7 @@ const [formData, setFormData] = useState({
             <div className="flex justify-between items-center">
               <div className="flex items-center space-x-1 flex-1 min-w-0">
                 <img 
-                  src="/lovable-uploads/9c22412f-8a3c-4f06-8cb7-5283fb3c200c.png" 
+                  src="/downloads/lovable-uploads/9c22412f-8a3c-4f06-8cb7-5283fb3c200c.png" 
                   alt="AshRose Maintenance Logo" 
                   className="h-5 w-5 flex-shrink-0 object-contain"
                 />
